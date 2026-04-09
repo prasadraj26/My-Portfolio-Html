@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Prasadraj V</title>
     <!-- Font Awesome CDN for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Your custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <!-- Google Fonts for Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <!-- Glowing Network Canvas Background -->
@@ -18,9 +18,10 @@
     <div class="container">
         <!-- Header -->
         <header>
-  <div class="logo">
-        <span class="logo-icon"><i class="fas fa-user"></i></span> <!-- New icon here -->
-    </div>
+            <div class="logo">
+                <span class="logo-icon"><i class="fas fa-user"></i></span>
+                PORTFOLIO
+            </div>
             <!-- Hamburger menu button for mobile -->
             <button class="menu-toggle" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -28,7 +29,6 @@
             <nav class="main-nav">
                 <a href="#about" class="active">About</a>
                 <a href="#skills">Skills</a>
-                <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
                 <a href="#education">Education</a>
                 <a href="#contact">Contact</a>
@@ -38,6 +38,7 @@
 
         <!-- Main Content -->
         <main>
+            <!-- Hero Section -->
             <section class="hero" id="about">
                 <div class="hero-content">
                     <h1>Hi, I am<br>Prasadraj V</h1>
@@ -49,9 +50,11 @@
                     <a href="assets/resume.pdf" class="resume-btn" target="_blank">Check Resume</a>
                 </div>
                 <div class="hero-image">
-                    <img src="" alt="Profile Photo" />
+                    <img src="images/pp photo.jpeg" alt="Profile Photo" />
                 </div>
-            </section>            <!-- Skills Section -->
+            </section>
+
+            <!-- Skills Section -->
             <section id="skills">
                 <h2>Skills</h2>
                 <p>Here are some of my skills on which I have learnt.</p>
@@ -64,7 +67,7 @@
                             <div class="skill-item"><i class="fa-brands fa-js"></i>JavaScript</div>
                             <div class="skill-item"><i class="fa-brands fa-bootstrap"></i>Bootstrap</div>
                             <div class="skill-item"><i class="fa-brands fa-react"></i>React Js</div>
-                            <div class="skill-item"><i class="fa-brands fa-reacteurope"></i>Redux</div>
+                            <div class="skill-item"><i class="fa-brands fa-figma"></i>Figma</div>
                         </div>
                     </div>
                     <div class="skill-card">
@@ -73,30 +76,86 @@
                             <div class="skill-item"><i class="fa-brands fa-git-alt"></i>Git</div>
                             <div class="skill-item"><i class="fa-brands fa-github"></i>GitHub</div>
                             <div class="skill-item"><i class="fa-solid fa-cloud"></i>Netlify</div>
-                            <div class="skill-item"><i class="fa-solid fa-code"></i>VS Code</div>
-                            <div class="skill-item"><i class="fa-solid fa-bolt"></i>Vite</div>
-                            <div class="skill-item"><i class="fa-brands fa-chrome"></i>Chrome DevTools</div>
+                            <div class="skill-item"><i class="fa-solid fa-fire"></i>Firebase</div>
+                            <div class="skill-item"><i class="fa-solid fa-database"></i>MongoDB</div>
+                            <div class="skill-item"><i class="fa-brands fa-palette"></i>Canva</div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Experience Section -->
-            <section id="experience">
-                <h2>Experience</h2>
-                <p>Details about your work experience go here.</p>
-            </section>
-
             <!-- Projects Section -->
             <section id="projects">
                 <h2>Projects</h2>
-                <p>Details about your projects go here.</p>
+                <p>Here are some of my recent projects</p>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Industrial Manufacturer Website</h3>
+                            <span class="project-year">2025</span>
+                        </div>
+                        <p class="project-description">Developed a dynamic company website featuring service listings and business information. Integrated a backend-supported Request a Quote module to collect, store, and manage customer inquiries efficiently.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">MongoDB</span>
+                            <span class="tech-badge">Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/prasadraj26" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Code</a>
+                            <a href="#" target="_blank" class="project-link"><i class="fa-solid fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Hospital Management Website</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">Designed and developed a web-based application to streamline hospital operations. Implemented separate user logins with well-defined authentication, structured routing, and improved user experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">MySQL</span>
+                            <span class="tech-badge">JWT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/prasadraj26" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Code</a>
+                            <a href="#" target="_blank" class="project-link"><i class="fa-solid fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!-- Education Section -->
             <section id="education">
                 <h2>Education</h2>
-                <p>Details about your education go here.</p>
+                <p>My academic journey and qualifications</p>
+                <div class="education-list">
+                    <div class="education-item">
+                        <div class="education-year">2023 - Present</div>
+                        <h3>Bachelor's Degree</h3>
+                        <h4>Kongu Engineering College</h4>
+                        <p class="education-field">Artificial Intelligence & Data Science</p>
+                        <p class="education-description">Pursuing degree with focus on software development and AI technologies.</p>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="education-year">2022 - 2023</div>
+                        <h3>Higher Secondary Education</h3>
+                        <h4>ST MARY'S MATRIC HIGHER SECONDARY SCHOOL</h4>
+                        <p class="education-field">Computer Science</p>
+                        <p class="education-description">Completed higher secondary education with 76% marks.</p>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="education-year">2020 - 2021</div>
+                        <h3>Secondary School Education</h3>
+                        <h4>ST MARY'S MATRIC HIGHER SECONDARY SCHOOL</h4>
+                        <p class="education-field">General Studies</p>
+                        <p class="education-description">Completed secondary education with 76% marks.</p>
+                    </div>
+                </div>
             </section>
 
             <!-- Contact Section -->
@@ -122,46 +181,41 @@
                         <div class="social-links">
                             <a href="https://github.com/prasadraj26" target="_blank" class="social-link"><i class="fa-brands fa-github"></i></a>
                             <a href="https://linkedin.com/" target="_blank" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://twitter.com/" target="_blank" class="social-link"><i class="fa-brands fa-twitter"></i></a>
                             <a href="https://instagram.com/" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="contact-form">
-                <form action="https://formspree.io/f/xwpqrzjz" method="POST" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Your Name:</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Your Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Your Message:</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="send-btn">
-                        Send Message
-                        <i class="fa-solid fa-paper-plane"></i>
-                    </button>
-                    <div id="form-messages" class="form-messages"></div>
-                </form>
-            </div>
+                        <form action="https://formspree.io/f/xwpqrzjz" method="POST" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Your Name:</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message:</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="send-btn">
+                                Send Message
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <div id="form-messages" class="form-messages"></div>
+                        </form>
                     </div>
                 </div>
             </section>
         </main>
 
         <footer>
-            <p>&copy; 2024 Prasadraj V. All rights reserved.</p>
+            <p>&copy; 2025 Prasadraj V. All rights reserved.</p>
         </footer>
     </div>
 
-    <!-- Your JavaScript for the neural background -->
+    <!-- JavaScript files -->
     <script src="js/particles.js"></script>
-    <!-- New JavaScript for navigation toggle -->
     <script src="js/main.js"></script>
 </body>
-
 </html>
