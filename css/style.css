@@ -3,7 +3,7 @@
     --bg-color: #0d1117;
     --card-bg-color: rgba(30, 36, 45, 0.8);
     --hover-card-bg-color: rgba(30, 36, 45, 0.95);
-    --primary-color: #58a6ff;
+    --primary-color: #ffffff;
     --text-color: #c9d1d9;
     --heading-color: #e6edf3;
     --border-color: rgba(56, 139, 253, 0.3);
@@ -112,7 +112,7 @@ header {
 }
 
 .github-btn {
-    background-color: var(--primary-color);
+    background-color: var(--bg-color);
     color: var(--bg-color);
     padding: 6px 12px;
     text-decoration: none;
@@ -123,10 +123,6 @@ header {
     white-space: nowrap;
 }
 
-.github-btn:hover {
-    background-color: #79aee8;
-    transform: translateY(-2px);
-}
 
 /* --- Main Content Sections --- */
 section {
